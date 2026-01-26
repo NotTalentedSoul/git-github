@@ -19,8 +19,8 @@ function App() {
           Learn React from the hard ♂ way
         </a>
 
-        {/* — Your custom message below the React default UI — */}
-        <div style={{ marginTop: '40px', fontSize: '20px', color: '#fff' }}>
+        {/* —  custom message below the React default UI — */}
+        <div style={{ marginTop: '140px', fontSize: '20px', color: '#fff' }}>
           <p>I was changed!</p>
         </div>
       </header>
