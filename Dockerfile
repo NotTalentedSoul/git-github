@@ -19,7 +19,7 @@ COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
 # Copy React build
 COPY --from=builder /app/build /usr/share/nginx/html/
 
-# Copy your static site INTO nginx/html
+# Copy static site INTO nginx/html
 COPY nginx/html/ /usr/share/nginx/html/static/
 
 EXPOSE 80
