@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React from the hard ♂ way
+          Learn React from the right way
         </a>
 
         {/* —  custom message below the React default UI — */}
