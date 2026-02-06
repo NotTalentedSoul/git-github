@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  web-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "80:80"
+    restart: always
