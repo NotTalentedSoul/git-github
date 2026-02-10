@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-        <p>Hi there!</p>
+        <p>NOOO</p>
 
         <a
           className="App-link"
@@ -21,7 +21,7 @@ function App() {
 
         {/* —  custom message below the React default UI — */}
         <div style={{ marginTop: '140px', fontSize: '20px', color: '#fff' }}>
-          <p>I was changed!</p>
+          <p>ByeBye!</p>
         </div>
       </header>
     </div>

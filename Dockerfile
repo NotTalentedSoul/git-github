@@ -5,10 +5,11 @@ WORKDIR /app
 COPY package.json ./
 RUN npm install
 COPY . .
+
 RUN npm run build
 
 # Stage 2: Serve with NGINX
-FROM nginx:latest
+FROM nginx:stable-alpine AS production_stage
 
 # Remove default html
 RUN rm -rf /usr/share/nginx/html/*
